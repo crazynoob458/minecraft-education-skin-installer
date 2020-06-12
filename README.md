@@ -11,7 +11,7 @@ enjoy custom skins in education edition!
 
 why was this made?
 
-this was made because i found a way to install custom skins on my pc but was very hard to do and the fact my friends wanted to have custom skins.
+this was made because i found a way to install custom skins on my pc but was very hard to do and the fact my friends wanted to have custom skins. also they are poor and cant have java like me
 
 requirements
 
