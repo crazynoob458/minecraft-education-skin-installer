@@ -16,3 +16,7 @@ this was made because i found a way to install custom skins on my pc but was ver
 requirements
 
 admin
+
+cleaning up
+
+delete skin.png, install.bat and skins.json
