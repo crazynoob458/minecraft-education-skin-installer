@@ -1,5 +1,5 @@
 @echo off
-echo minecraft skin installer ver 0.3
+echo minecraft skin installer ver 1.0
 echo please run this batch file in ADMIN
 echo also if you installed minecraft education edition on uwp mode *microsoft store* well die in a hole why would you?
 echo ready?
