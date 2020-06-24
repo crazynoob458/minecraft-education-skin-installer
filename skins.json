@@ -12,6 +12,12 @@
       "texture": "alex_dev.png",
       "type": "free"
     },
+        {
+      "localization_name": "CustomSkinSlim",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin.png",
+      "type": "free"
+    },
     {
       "localization_name": "CustomSkin",
       "geometry": "geometry.humanoid.custom",
