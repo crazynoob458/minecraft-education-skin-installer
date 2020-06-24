@@ -15,7 +15,7 @@
         {
       "localization_name": "CustomSkinSlim",
       "geometry": "geometry.humanoid.customSlim",
-      "texture": "skin.png",
+      "texture": "skinslim.png",
       "type": "free"
     },
     {
