@@ -1,21 +1,19 @@
 @echo off
-echo minecraft skin installer ver 1.0
-echo please run this batch file in ADMIN
+echo minecraft skin installer ver 1.1
 echo also if you installed minecraft education edition on uwp mode *microsoft store* well die in a hole why would you?
 echo ready?
-pause
+set %a%=NUL
+pause>NUL
 cls
-echo please place skins.json and your skin renamed to skin.png it is also recommended to place installer.bat on C:/
-echo press enter when youre ready
-pause
+echo drap and drop your skin into this command prompt
+set /p a=file please!:
 cls
 echo log
-cd C:\
 echo folder structure is
 @echo on
 dir
 echo copying skin.png
-copy "skin.png" "C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\data\skin_packs\edu\Developers"
+copy "%a%" "C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\data\skin_packs\edu\Developers"
 echo copying skins.json
 copy /Y "skins.json" "C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\data\skin_packs\edu\Developers"
 @echo off
