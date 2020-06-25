@@ -24,3 +24,9 @@ admin
 # cleaning up
 
 delete skin.png, install.bat and skins.json
+
+# todo
+
+*somehow* make the installer work with microsoft store (which i wont do plus microsoft store sux
+
+make a gui (HSGyGYIGSIUGUUDI)
