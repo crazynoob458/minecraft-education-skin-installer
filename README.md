@@ -3,6 +3,10 @@ a minecraft skin installer for education edition a work in progress
 
 # how to install
 
+click clone or download and select download zip
+
+extract the zip
+
 run installer.bat
 
 follow insructions
