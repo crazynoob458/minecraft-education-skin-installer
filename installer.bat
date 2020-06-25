@@ -16,7 +16,7 @@ if %d%==yes goto customdir
 if %d%==no goto defaultdir
 
 echo drap and drop your skin into this command prompt
-rename skin to skin.png
+echo remember to rename skin to skin.png
 set /p a=skin please!:
 cls
 echo log
