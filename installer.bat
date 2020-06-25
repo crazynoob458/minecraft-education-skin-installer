@@ -3,10 +3,11 @@ echo minecraft skin installer ver 1.1
 echo also if you installed minecraft education edition on uwp mode *microsoft store* well die in a hole why would you?
 echo ready?
 set %a%=NUL
+echo press a key to continue
 pause>NUL
 cls
 echo drap and drop your skin into this command prompt
-set /p a=file please!:
+set /p a=skin please!:
 cls
 echo log
 echo folder structure is
