@@ -15,8 +15,8 @@ set /p d=yes no?-
 if %d%==yes goto customdir
 if %d%==no goto defaultdir
 
-
 echo drap and drop your skin into this command prompt
+rename skin to skin.png
 set /p a=skin please!:
 cls
 echo log
@@ -24,9 +24,9 @@ echo folder structure is
 @echo on
 dir
 echo copying skin.png
-copy "%a%" "C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\data\skin_packs\edu\Developers"
+copy "%a%" "%x%"
 echo copying skins.json
-copy /Y "skins.json" "C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\data\skin_packs\edu\Developers"
+copy /Y "skins.json" "%x%"
 @echo off
 echo complete! open minecraft education edition and your skin should be in the developers section
 pause
