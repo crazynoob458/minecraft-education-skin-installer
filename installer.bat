@@ -11,11 +11,11 @@ cls
 echo did you install minecraft education edition on a different location
 echo again if you installed in microsoft store dont to it
 echo if unsure type no
-set /p d=yes no?-
+set /p d=yes no?
 if %d%==yes goto customdir
 if %d%==no goto defaultdir
-
-:maininstall
+:start
+cls
 echo drap and drop your skin into this command prompt
 echo remember to rename skin to skin.png
 set /p a=skin please!:
@@ -32,14 +32,12 @@ copy /Y "skins.json" "%x%\data\skin_packs\edu\developers"
 echo complete! open minecraft education edition and your skin should be in the developers section
 pause
 exit
-
 :customdir
 cls
 echo set custom directory
 set /p x=where is minecraft installed?
-goto maininstall
-
+goto start
 :defaultdir
 cls
 set %x%=C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition
-goto maininstall
+goto start
