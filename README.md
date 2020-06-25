@@ -27,6 +27,6 @@ delete skin.png, install.bat and skins.json
 
 # todo
 
-*somehow* make the installer work with microsoft store (which i wont do plus microsoft store sux
+*somehow* make the installer work with the appx version (which i wont do appx sux when you do mods)
 
 make a gui (HSGyGYIGSIUGUUDI)
