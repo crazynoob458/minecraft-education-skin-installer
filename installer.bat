@@ -15,6 +15,7 @@ set /p d=yes no?-
 if %d%==yes goto customdir
 if %d%==no goto defaultdir
 
+:maininstall
 echo drap and drop your skin into this command prompt
 echo remember to rename skin to skin.png
 set /p a=skin please!:
