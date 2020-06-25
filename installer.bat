@@ -47,5 +47,7 @@ echo close this window and right-click the batch file, and click run as administ
 echo the click yes
 echo if it prompts you to enter a admin password sorry i cant do anything for you please contact
 echo device administrator
+echo please ignore this message if you did that
 set %x%=C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition
+pause
 goto start
