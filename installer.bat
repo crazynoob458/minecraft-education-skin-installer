@@ -2,9 +2,9 @@
 echo minecraft skin installer ver 1.1
 echo also if you installed minecraft education edition on uwp mode *microsoft store* well die in a hole why would you?
 echo ready?
-set %a%=NUL
-set %d%=NUL
-set %x%=NUL
+set a=NUL
+set d=NUL
+set x=NUL
 echo press a key to continue
 pause>NUL
 cls
