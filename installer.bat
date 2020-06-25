@@ -24,9 +24,9 @@ echo folder structure is
 @echo on
 dir
 echo copying skin.png
-copy "%a%" "%x%"
+copy "%a%" "%x%\data\skin_packs\edu\developers"
 echo copying skins.json
-copy /Y "skins.json" "%x%"
+copy /Y "skins.json" "%x%\data\skin_packs\edu\developers"
 @echo off
 echo complete! open minecraft education edition and your skin should be in the developers section
 pause
@@ -40,5 +40,5 @@ goto maininstall
 
 :defaultdir
 cls
-set %x%=C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\data\skin_packs\edu\Developers
+set %x%=C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition
 goto maininstall
