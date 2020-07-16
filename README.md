@@ -29,3 +29,5 @@ delete skin.png, install.bat and skins.json
 *somehow* make the installer work with the appx version (which i wont do appx sux when you do mods)
 
 make a gui (HSGyGYIGSIUGUUDI)
+
+make a version for "slim"  type of skins
