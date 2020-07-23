@@ -1,5 +1,27 @@
 # minecraft-education-skin-installer
 
+due to inactivity and loss of motivation this has been cancelled
+
+how do i install custom skins?
+
+currently there is no automated way of installing skins but rather do this
+
+manual instructions
+
+1. go to minecraft edu directory
+
+2. download the skins.json
+
+3. copy skins.json to data\skinpacks\edu\developers you will need admin select replace file
+
+4. rename your skin to skins (.png)
+
+5. copy to the same folder where you copied skins.json
+
+6. done
+
+# OUTDATED INSTRUACIONS DO NOT USE
+
 # how to install
 
 click clone or download and select download zip
