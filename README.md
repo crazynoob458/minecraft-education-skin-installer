@@ -31,3 +31,5 @@ delete skin.png, install.bat and skins.json
 make a gui (HSGyGYIGSIUGUUDI)
 
 make a version for "slim"  type of skins
+
+auto remaming of skins
